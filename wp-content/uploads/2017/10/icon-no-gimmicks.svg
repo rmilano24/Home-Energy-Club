@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="91px" height="91px" viewBox="0 0 91 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 31</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="142.317708%" y1="0%" x2="-358.984375%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FF6A38" offset="0%"></stop>
+            <stop stop-color="#67D2C1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-2-v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Home" transform="translate(-1116.000000, -1860.000000)" stroke="url(#linearGradient-1)" stroke-width="2">
+            <g id="Group-31" transform="translate(1117.000000, 1861.000000)">
+                <path d="M89,44.5 C89,69.0794783 69.0794783,89 44.5,89 C19.9243913,89 0,69.0794783 0,44.5 C0,19.9205217 19.9243913,0 44.5,0 C69.0794783,0 89,19.9205217 89,44.5 L89,44.5 Z" id="Stroke-164" stroke-linecap="round"></path>
+                <path d="M44.4490648,15 C28.1862057,15 15,28.1884082 15,44.4539836 C15,50.5891097 16.8782565,56.286287 20.0931864,61 L61,20.0940371 C56.2793921,16.8824119 50.5870073,15 44.4490648,15 L44.4490648,15 Z" id="Stroke-165"></path>
+                <path d="M28,68.9063883 C32.7167669,72.1177453 38.4129927,74 44.5509352,74 C60.8099532,74 74,60.8165344 74,44.548476 C74,38.4138622 72.1140615,32.7171608 68.9029726,28 L28,68.9063883 L28,68.9063883 Z" id="Stroke-166"></path>
+            </g>
+        </g>
+    </g>
+</svg>

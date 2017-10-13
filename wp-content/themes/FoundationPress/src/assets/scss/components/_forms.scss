@@ -1,0 +1,9 @@
+[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea {
+  background: $light-blue;
+  border: 1px solid #527B82;
+  border-radius: 4px;
+  &::placeholder {
+    color: $dark-blue;
+    opacity: 0.8;
+  }
+}

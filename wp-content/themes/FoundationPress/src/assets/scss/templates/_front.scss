@@ -1,0 +1,392 @@
+#hero-section {
+  background: url('../images/bg_hero.jpg') center center no-repeat;
+  background-size: cover;
+  #logo {
+    padding-top: 23px;
+  }
+  #clock {
+    margin-top: 12px;
+    img {
+      float: right;
+    }
+  }
+  #hero-info {
+    @include breakpoint(small) {
+      height: 250px;
+     }
+    @include breakpoint(medium) {
+      height: 289px;
+     }
+    @include breakpoint(large) {
+      height: 489px;
+     }
+  }
+  .grid-x {
+    #hero-left {
+      padding-left: 0px;
+    }
+    #hero-center {
+      // padding-bottom: 180px;
+      ul {
+        padding:0;
+        margin:40px 0 0 0;
+        @include breakpoint(medium down) {
+          margin:20px 0 0 0;
+        }
+        @include breakpoint(small only) {
+          margin:10px 0 0 0;
+        }
+      }
+      li {
+        color: $white;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        list-style: none;
+        background: url('../images/li-check.svg') no-repeat;
+        padding: 3px 0 0 30px;
+        margin-bottom: 10px;
+        @include breakpoint(medium down) {
+          font-size: 12px;
+          line-height: 13px;
+          background-size: 15px;
+          padding: 3px 0 0 25px;
+        }
+      }
+    }
+    #hero-right {
+      text-align: right;
+      padding-right: 0px;
+      img {
+        margin-bottom: -20px;
+      }
+    }
+  }
+}
+
+#see-savings {
+  background: $dark-blue;
+  min-height: 65px;
+  label {
+    color: $white;
+    font-family: $montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: italic;
+    max-width: 233px;
+    line-height: 17px;
+    text-transform: uppercase;
+    float: right;
+    @include breakpoint(medium down) {
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+  [type='text'] {
+    margin-bottom: 0px;
+  }
+  #savings-form {
+    height: 65px;
+  }
+}
+
+#get-started {
+  text-align: center;
+  padding-bottom: 100px;
+  p {
+    max-width: 783px;
+    margin: 0 auto;
+  }
+}
+
+#rates {
+  p {
+    padding-bottom: 50px;
+  }
+  #questions {
+    margin-top: -100px;
+    margin-bottom: 30px;
+  }
+  #question-1 {
+    .float-right {
+      float: right;
+      @include breakpoint(small only) {
+      float: left;
+      width: 100%;
+      }
+      .button {
+        @include breakpoint(small down) {
+          width: 33.3%;
+        }
+      }
+    }
+  }
+  #question-2 {
+    .button {
+      @include breakpoint(small down) {
+        width: 25%;
+      }
+    }
+  }
+  .filters-button-group {
+    display: flex;
+    .button {
+      border-radius: 0px;
+      &:first-of-type {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+      }
+      &:last-of-type {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+      }
+    }
+  }
+  .red {
+    font-weight: bold;
+  }
+  .card {
+    text-align: center;
+    margin-bottom: 50px;
+    span {
+      display: block;
+    }
+    .plan {
+      background: $dark-blue;
+      color: $white;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 10px 30px;
+      font-weight: bold;
+      border-radius: 4px;
+    }
+    .price {
+      color: $red;
+      font-size: 50px;
+      font-weight: bold;
+      font-family: $montserrat;
+      margin: 20px auto 30px auto;
+      smaller {
+        font-size: 18px;
+        font-weight: normal;
+      }
+    }
+    .logo {
+      margin-bottom: 55px;
+    }
+  }
+}
+
+#reasons {
+  text-align: center;
+  p {
+    max-width: 783px;
+    margin: 0 auto 50px auto;
+  }
+  h3 {
+    margin-top: 20px;
+  }
+  #icons {
+    .cell {
+      @include breakpoint(small) {
+        margin-bottom: 50px;
+       }
+    }
+  }
+}
+
+#offers {
+  .product-wrapper {
+    max-width: 94%;
+    @include breakpoint(small) {
+      margin: 0 auto 50px auto;
+     }
+    @include breakpoint(medium) {
+      max-width: 96%;
+     }
+  }
+  padding: 50px 0;
+  @include breakpoint(small) {
+    padding-bottom: 0px;
+  }
+  h2 {
+    text-align: center;
+  }
+  .offer-grid {
+    padding-top: 50px;
+    .product-container {
+      background: $white;
+      height: 282px;
+      box-shadow: 0 0 30px 0 rgba(0,0,0,0.04);
+      text-align: center;
+      margin-bottom: 15px;
+      padding-top: 25px;
+    }
+    .member-price {
+      color: $red;
+      font-size: 28px;
+      font-weight: 700;
+      smaller {
+        font-size: 16px;
+        font-weight: normal;
+      }
+    }
+    .org-price {
+      float: right;
+      color: $dark-blue;
+      font-size: 18px;
+      text-decoration: line-through;
+    }
+    .button {
+      margin-top: 20px;
+    }
+  }
+  #green-products {
+    margin-top: 50px;
+    @include breakpoint(small) {
+    margin-top: 0px;
+    }
+  }
+}
+
+#faqs {
+  .grid-container {
+    max-width: 1028px;
+  }
+  .accordion {
+    margin-top: 50px;
+    .accordion-item {
+      margin: 20px 0;
+      .accordion-title {
+        color: #9B9B9B;
+        font-size: 16px;
+        letter-spacing: 1px;
+        border: 1px solid #BACCCB;
+        border-radius: 4px;
+        padding: 1.25rem 2rem 1.25rem 1rem;
+        &:hover, &:focus, &:active {
+          background: $light-blue;
+        }
+      }
+      .is-active {
+        .accordion-title {
+          background: $light-blue;
+        }
+      }
+      .accordion-title::before {
+        color: $red;
+        font-size: 40px;
+        margin-top: -1.5rem;
+      }
+      .accordion-content {
+        border: none;
+        font-size: 16px;
+        p {
+          font-size: 16px;
+          @include breakpoint(small) {
+          font-style: 15px;
+           }
+        }
+      }
+    }
+  }
+}
+
+
+// MODAL STYLES
+
+.reveal-overlay {
+  background: rgba(10, 10, 10, 0.75);
+  .reveal {
+    background-color: $light-blue;
+    h2 {
+      margin-bottom: 0px;
+    }
+    @include breakpoint(large) {
+    width: 875px;
+    h2 {
+      font-size: 24px;
+      }
+    }
+    @include breakpoint(medium only) {
+      h2 {
+        font-size: 10px;
+        }
+    }
+    @include breakpoint(small only) {
+      h2 {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 50px;
+        }
+
+    }
+    border: none;
+    .offer-grid {
+      padding-top: 15px;
+      .product-container {
+        background: $white;
+        height: 282px;
+        box-shadow: 0 0 30px 0 rgba(0,0,0,0.04);
+        text-align: center;
+        margin-bottom: 15px;
+        padding-top: 25px;
+      }
+      .member-price {
+        color: $red;
+        font-size: 28px;
+        font-weight: 700;
+        smaller {
+          font-size: 16px;
+          font-weight: normal;
+        }
+      }
+      .pricing {
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 14px;
+        color: $dark-blue;
+        line-height: 19px;
+      }
+      .org-price {
+        float: right;
+        color: $dark-blue;
+        font-size: 18px;
+        text-decoration: line-through;
+      }
+      .button {
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+
+
+// GLOBAL STRIP STYLES
+
+.lead-in {
+  text-align: center;
+  p {
+    max-width: 783px;
+    margin: 0 auto;
+  }
+}
+
+.strip-white {
+    padding: 50px 0;
+  p {
+    color: $light-gray;
+  }
+}
+
+.strip-light-blue {
+  background: $light-blue;
+  padding: 50px 0;
+  p {
+    color: $dark-blue;
+    max-width: 783px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}

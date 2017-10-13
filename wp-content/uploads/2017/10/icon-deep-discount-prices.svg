@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="84px" viewBox="0 0 76 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 19</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="142.317708%" y1="0%" x2="-358.984375%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FF6A38" offset="0%"></stop>
+            <stop stop-color="#67D2C1" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-2-v2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="Home" transform="translate(-186.000000, -1860.000000)" stroke="url(#linearGradient-1)" stroke-width="2">
+            <g id="Group-19" transform="translate(187.000000, 1861.000000)">
+                <path d="M59,74.2481212 C59,78.5392727 62.36,82 66.5018182,82 C70.64,82 74,78.5392727 74,74.2481212 C74,69.9757576 70.64,66.4962424 66.5018182,66.4962424 C62.36,66.4962424 59,63.0392727 59,58.7481212 C59,54.4757576 62.36,51 66.5018182,51 C70.64,51 74,54.4757576 74,58.7481212" id="Stroke-3513" stroke-linecap="round"></path>
+                <path d="M66,46 L66,51" id="Stroke-3515" stroke-linecap="round"></path>
+                <polygon id="Stroke-3516" points="70 22.8809908 70 0 46.2785548 0 0 46.3123317 23.6269374 70"></polygon>
+                <path d="M56.5,19 C53.4603333,19 51,16.536 51,13.5 C51,10.4676667 53.4603333,8 56.5,8 C59.536,8 62,10.4676667 62,13.5 C62,16.536 59.536,19 56.5,19 L56.5,19 Z" id="Stroke-3517"></path>
+            </g>
+        </g>
+    </g>
+</svg>
